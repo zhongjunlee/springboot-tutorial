@@ -1,25 +1,6 @@
-<p align="center">
-  <span>中文 | <a href="./README.en.md">English</a></span>
-</p>
-
 ## 项目简介
 这是一个通过Spring Boot集成常用开发技术入门教程,通过此教程你可以快速的开发自己的项目的功能。
 
-## 技术
-
-Spring Boot 版本 `2.1.0.RELEASE`
-## 开发环境
-
-- **JDK 1.8 +**
-- **Maven 3.5 +**
-- **IntelliJ IDEA ULTIMATE 2018.2
-- **Mysql 5.7 +**
-
-## 运行方式
-
-1. `git clone https://github.com/johnny/spring-boot-demo.git`
-2. 使用 IDEA 打开 clone 下来的项目
-3. 在 IDEA 中 Maven Projects 的面板导入项目根目录下 的 `pom.xml` 文件
 
 ### Module 介绍
 
