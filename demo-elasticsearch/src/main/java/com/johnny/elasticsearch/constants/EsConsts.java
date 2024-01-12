@@ -1,12 +1,7 @@
 package com.johnny.elasticsearch.constants;
 
 /**
- * <p>
- * ES常量池
- * </p>
- *
  * @author Johnny Lee
- * @date Created in 2018-12-20 17:30
  */
 public interface EsConsts {
     /**

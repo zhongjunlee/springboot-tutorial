@@ -1,25 +1,9 @@
-<p align="center">
-  <span>中文 | <a href="./README.en.md">English</a></span>
-</p>
-
 ## 项目简介
 这是一个通过Spring Boot集成常用开发技术入门教程,通过此教程你可以快速的开发自己的项目的功能。
 
-## 技术
-
+## 版本
 Spring Boot 版本 `2.1.0.RELEASE`
-## 开发环境
 
-- **JDK 1.8 +**
-- **Maven 3.5 +**
-- **IntelliJ IDEA ULTIMATE 2018.2
-- **Mysql 5.7 +**
-
-## 运行方式
-
-1. `git clone https://github.com/johnny/spring-boot-demo.git`
-2. 使用 IDEA 打开 clone 下来的项目
-3. 在 IDEA 中 Maven Projects 的面板导入项目根目录下 的 `pom.xml` 文件
 
 ### Module 介绍
 
@@ -78,11 +62,11 @@ Spring Boot 版本 `2.1.0.RELEASE`
 | [demo-multi-datasource-mybatis](./demo-multi-datasource-mybatis) | spring-boot 使用Mybatis集成多数据源，使用 Mybatis-Plus 提供的开源解决方案实现 |
 | [demo-sharding-jdbc](./demo-sharding-jdbc)                   | spring-boot 使用 `sharding-jdbc` 实现分库分表，同时ORM采用 Mybatis-Plus |
 | [demo-tio](./demo-tio)                                       | spring-boot 集成 tio 网络编程框架<br /> <span style="color:pink;">待完成</span> |
-| demo-grpc                                                    | spring-boot 集成grpc，配置tls/ssl，参见[ISSUE#5](https://github.com/johnny/spring-boot-demo/issues/5)<br /> <span style="color:pink;">待完成</span> |
+| demo-grpc                                                    | spring-boot 集成grpc，配置tls/ssl <span style="color:pink;">待完成</span> |
 | [demo-codegen](./demo-codegen)                               | spring-boot 集成 velocity 模板技术实现的代码生成器，简化开发 |
 | [demo-graylog](./demo-graylog)                               | spring-boot 集成 graylog 实现日志统一收集                    |
-| demo-sso                                                     | spring-boot 集成 SSO 单点登录，参见 [ISSUE#12](https://github.com/johnny/spring-boot-demo/issues/12)<br /> <span style="color:pink;">待完成</span> |
-| [demo-ldap](./demo-ldap)                                     | spring-boot 集成 LDAP，集成 `spring-boot-starter-data-ldap` 完成对 Ldap 的基本 CURD操作, 并给出以登录为实战的 API 示例，参见 [ISSUE#23](https://github.com/johnny/spring-boot-demo/issues/23)，感谢 [@fxbin](https://github.com/fxbin) |
+| demo-sso                                                     | spring-boot 集成 SSO 单点登录 <span style="color:pink;">待完成</span> |
+| [demo-ldap](./demo-ldap)                                     | spring-boot 集成 LDAP，集成 `spring-boot-starter-data-ldap` 完成对 Ldap 的基本 CURD操作, 并给出以登录为实战的 API 示例 |
 | [demo-dynamic-datasource](./demo-dynamic-datasource)         | spring-boot 动态添加数据源、动态切换数据源                   |
 | [demo-ratelimit-guava](./demo-ratelimit-guava)               | spring-boot 使用 Guava RateLimiter 实现单机版限流，保护 API  |
 | [demo-ratelimit-redis](./demo-ratelimit-redis)               | spring-boot 使用 Redis + Lua 脚本实现分布式限流，保护 API    |

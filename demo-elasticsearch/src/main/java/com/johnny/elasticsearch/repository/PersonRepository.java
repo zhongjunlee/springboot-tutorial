@@ -6,12 +6,7 @@ import org.springframework.data.elasticsearch.repository.ElasticsearchRepository
 import java.util.List;
 
 /**
- * <p>
- * 用户持久层
- * </p>
- *
  * @author Johnny Lee
- * @date Created in 2018-12-20 19:00
  */
 public interface PersonRepository extends ElasticsearchRepository<Person, Long> {
 

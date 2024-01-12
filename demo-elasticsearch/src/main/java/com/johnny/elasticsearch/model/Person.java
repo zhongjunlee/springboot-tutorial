@@ -12,12 +12,8 @@ import org.springframework.data.elasticsearch.annotations.FieldType;
 import java.util.Date;
 
 /**
- * <p>
- * 用户实体类
- * </p>
  *
  * @author Johnny Lee
- * @date Created in 2018-12-20 17:29
  */
 @Document(indexName = EsConsts.INDEX_NAME, type = EsConsts.TYPE_NAME, shards = 1, replicas = 0)
 @Data

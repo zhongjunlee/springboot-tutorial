@@ -4,12 +4,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 /**
- * <p>
- * 启动类
- * </p>
- *
  * @author Johnny Lee
- * @date Created in 2018-10-27 22:52
  */
 @SpringBootApplication
 public class SpringBootDemoElasticsearchApplication {
